@@ -1,0 +1,28 @@
+
+.footer{
+  background-color:#2c2b2b;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:30px;
+  display: block;
+  height: 100px;
+  padding: 30px;
+}
+
+.fab{
+  display:inline-block;
+  text-align: center;
+  padding: 8px;
+}
+
+.social{
+  font-size:30px;
+  color:#F26419;
+  text-decoration: none;
+}
+
+.social:hover{
+  color:#FDD692;
+}

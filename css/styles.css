@@ -1,0 +1,56 @@
+/* --- Font imports --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700");
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+
+/* --- Component imports --- */
+@import url("components/container.css");
+@import url("components/cards.css");
+@import url("components/footer.css");
+@import url("components/header.css");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    column-count: 4;
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+
+/* --- Fonts & colors --- */
+body {
+  background-color: rgb(245,245,245);
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  margin: 0;
+}
+h1, h2, h3 {
+  font-family: "Poppins", "sans-serif";
+}
+
+h2{
+  font-family: "Poppins", "sans-serif";
+  font-size: 15px;
+}
+
+p{
+  font-size:10px;
+}

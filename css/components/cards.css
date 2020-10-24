@@ -1,0 +1,129 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+.card {
+box-shadow: 5px 5px 2px #aaaaaa;
+border-radius:4px;
+margin-top:20px;
+overflow: hidden;
+justify-content:center;
+display: inline-block;
+background: #fff;
+}
+
+.link-card{
+  color:black;
+}
+
+.link-card:hover{
+  color:black;
+  box-shadow: 1px 1px 4px #aaaaaa;
+}
+
+
+.main-image{
+  width: 100%;
+}
+
+.main-text h2{
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-left: 2px;
+}
+.card-text{
+  display:flex;
+  justify-content: space-between;
+  padding-left:5px;
+  padding-right: 10px;
+}
+
+.card-avatar{
+  display: flex;
+  align-items: center;
+}
+
+.card-name p{
+  margin-left: 5px;
+  padding: 3px;
+}
+
+
+.avatar{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-size: contain;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.card-vote{
+  display: flex;
+  justify-content: space-between;
+  padding-left:5px;
+  padding-right:5px;
+  align-items: center;
+}
+
+.icon{
+  margin-right: 2px;
+  font-size:10px;
+}
+
+.likes{
+  color:black;
+  display:flex;
+  text-decoration: none;
+}
+
+.likes:hover{
+  color:red;
+}
+
+/*.card:hover{
+  background-color: black;
+}
+
+
+/* Flip card test
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 100px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect
+}
+
+/* This container is needed to position the front and back side
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing)
+.flip-card-front {
+  color: black;
+}
+
+
+/* Style the back side
+.flip-card-back {
+  color: white;
+}
+*/
